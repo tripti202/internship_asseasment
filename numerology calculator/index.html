@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Numerology Calculator</title>
+</head>
+<body>
+    <div class="calculator-container1">
+        <h1>Life path Number</h1>
+        <label for="birthdate">Enter your birthdate:</label>
+        <input type="date" id="birthdate">
+        <button onclick="calculateLifePathNumber1()">Calculate</button>
+        <p id="result1"></p>
+    </div>
+
+
+    <!-- HTML -->
+<div class="calculator-container2">
+    <h1>Compatibility test</h1>
+    
+    <div class="input-container">
+        <label for="birthdate1">Person 1's Birthdate:</label>
+        <input type="date" id="birthdate1">
+    </div>
+
+    <div class="input-container">
+        <label for="birthdate2">Person 2's Birthdate:</label>
+        <input type="date" id="birthdate2">
+    </div>
+
+    <button onclick="calculateCompatibilityDOB()">Calculate Compatibility by DOB</button>
+
+    <div id="result2"></div>
+</div>
+
+
+    <div class="calculator-container3">
+        <h1>Name Compatibility Calculator</h1>
+
+        <div id="name-input-container">
+            <label for="name1">Person 1 Name:</label>
+            <input type="text" id="name1" placeholder="Enter name">
+
+            <label for="name2">Person 2 Name:</label>
+            <input type="text" id="name2" placeholder="Enter name">
+        </div>
+
+        <button onclick="calculateCompatibility()">Calculate Compatibility</button>
+
+        <div id="result3"></div>
+        </div>
+
+        <div class="calculator-container4">
+            <h1>Soul Urge Number Calculator</h1>
+    
+            <div id="input-container">
+                <label for="fullname1">Person 1 Name:</label>
+                <input type="text" id="fullname1" placeholder="Enter full name">
+    
+                <label for="fullname2">Person 2 Name:</label>
+                <input type="text" id="fullname2" placeholder="Enter full name">
+            </div>
+    
+            <button onclick="calculateAndCompareSoulUrgeNumbers()">Calculate & Compare</button>
+    
+            <div id="result4"></div>
+        </div>
+
+
+        <!-- HTML -->
+<div class="calculator-container5">
+    <h1>Life path calculator</h1>
+    <label for="path">Enter your birthdate:</label>
+    <input type="date" id="pathdate1">
+    <button onclick="calculateLifePathNumberEvolution()">Calculate Life Path Number Evolution</button>
+    <p id="lifePathResult"></p>
+    <div id="evolutionResult"></div>
+</div>
+
+
+<div class="calculator-container6">
+    <h1>Balance Number Calculator</h1>
+    <label for="currentName">Enter your current name:</label>
+    <input type="text" id="currentName" placeholder="Enter name">
+    <button onclick="calculateBalanceNumberAndPercentage()">Calculate Balance Number</button>
+    <p id="balanceResult"></p>
+</div>
+
+
+<div class="calculator-container7">
+    <h1>Color and Gemstone Recommendations</h1>
+    <label for="lifePathNumber">Enter your Life Path Number (1-9):</label>
+    <input type="number" id="lifePathNumber" placeholder="Enter Life Path Number">
+    <button onclick="recommendColorsAndGemstones()">Recommend Colors and Gemstones</button>
+    <p id="colorGemstoneResult"></p>
+</div>
+
+
+
+
+<div class="compatibility-container">
+    <h1>Name and DOB Compatibility Checker</h1>
+
+    <div id="input-container">
+        <label for="birthdate">Enter your birthdate:</label>
+        <input type="date" id="birthdatec" placeholder="Enter your birthdate">
+
+        <label for="name">Enter your name:</label>
+        <input type="text" id="namec" placeholder="Enter your name">
+    </div>
+
+    <button onclick="checkNameDOBCompatibility()">Check Compatibility</button>
+
+    <p id="compatibilityResult"></p>
+</div>
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
